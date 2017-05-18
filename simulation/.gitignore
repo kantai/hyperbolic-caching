@@ -1,0 +1,6 @@
+*.pyc
+workloads/arc/arc.lis.all.tgz
+workloads/spc1/MergeFinancial.spc
+workloads/spc1/MergeWebSearch.spc.bz2
+workloads/spc1/spc1.csv.gz
+to_profile.py

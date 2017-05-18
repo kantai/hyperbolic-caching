@@ -1,0 +1,21 @@
+driver, K, U, Reqs, Zipf_A, PQ_Frequency, RM_Hyper(0e+00; 0.100)
+ZipfFixedDriver.IntHigh.100, 1.000e+02, 1.000e+05, 1.100e+06, 1.000, 0.982480, 0.583043
+ZipfFixedDriver.IntHigh.100, 2.500e+02, 1.000e+05, 1.100e+06, 1.000, 0.974337, 0.504400
+ZipfFixedDriver.IntHigh.100, 5.000e+02, 1.000e+05, 1.099e+06, 1.000, 0.962164, 0.446819
+ZipfFixedDriver.IntHigh.100, 7.500e+02, 1.000e+05, 1.099e+06, 1.000, 0.950227, 0.413230
+ZipfFixedDriver.IntHigh.100, 1.000e+03, 1.000e+05, 1.098e+06, 1.000, 0.938644, 0.389454
+ZipfFixedDriver.IntHigh.100, 1.500e+03, 1.000e+05, 1.097e+06, 1.000, 0.916504, 0.356928
+ZipfFixedDriver.IntHigh.100, 2.000e+03, 1.000e+05, 1.096e+06, 1.000, 0.894130, 0.333733
+ZipfFixedDriver.IntHigh.100, 3.000e+03, 1.000e+05, 1.094e+06, 1.000, 0.854344, 0.301754
+ZipfFixedDriver.IntHigh.100, 4.000e+03, 1.000e+05, 1.091e+06, 1.000, 0.814634, 0.279597
+ZipfFixedDriver.IntHigh.100, 5.000e+03, 1.000e+05, 1.088e+06, 1.000, 0.778680, 0.262423
+ZipfFixedDriver.IntHigh.100, 7.500e+03, 1.000e+05, 1.080e+06, 1.000, 0.691737, 0.232212
+ZipfFixedDriver.IntHigh.100, 1.000e+04, 1.000e+05, 1.071e+06, 1.000, 0.607992, 0.211179
+ZipfFixedDriver.IntHigh.100, 1.500e+04, 1.000e+05, 1.050e+06, 1.000, 0.459738, 0.181849
+ZipfFixedDriver.IntHigh.100, 2.000e+04, 1.000e+05, 1.026e+06, 1.000, 0.330455, 0.159816
+ZipfFixedDriver.IntHigh.100, 3.000e+04, 1.000e+05, 9.647e+05, 1.000, 0.131242, 0.127238
+ZipfFixedDriver.IntHigh.100, 4.000e+04, 1.000e+05, 8.866e+05, 1.000, 0.101677, 0.102305
+ZipfFixedDriver.IntHigh.100, 5.000e+04, 1.000e+05, 7.850e+05, 1.000, 0.080358, 0.080903
+ZipfFixedDriver.IntHigh.100, 7.500e+04, 1.000e+05, 3.460e+05, 1.000, 0.035923, 0.036186
+ZipfFixedDriver.IntHigh.100, 1.000e+05, 1.000e+05, 0.000e+00, 1.000, 0.000000, 0.000000
+ZipfFixedDriver.IntHigh.100, 1.500e+05, 1.000e+05, 0.000e+00, 1.000, 0.000000, 0.000000

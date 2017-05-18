@@ -1,0 +1,38 @@
+#!/bin/bash
+
+WORKLOAD=$1
+
+## WORKLOADS = 0 -> Z1C(n=10**5, alpha=1.0)
+## 2-> (n = 10**6, alpha = 0.75)
+## 3-> DynPromo(n = 10**5, alpha = 1.0)
+## 4-> IntHigh(n = 10**5, alpha = 1.0)
+## 5-> Vtree()
+## 8-> Z(n=10**6, alpha = 1)
+## 9-> Z(n=10**6, alpha = 0.9)
+
+OUTFILE=$2
+CACHESZ1=$3
+CACHESZ2=$4
+
+for i in `seq 1 10` ; do
+    echo $i
+    time ./run_web_sim.sh default $CACHESZ1 $OUTFILE $WORKLOAD &&
+    time ./run_web_sim.sh hyper $CACHESZ1 $OUTFILE $WORKLOAD &&
+    time ./run_web_sim.sh default $CACHESZ2 $OUTFILE $WORKLOAD &&
+    time ./run_web_sim.sh hyper $CACHESZ2 $OUTFILE $WORKLOAD
+done;  
+
+CACHESIZES="100 250 1250 2500 10000 50000 75000 100000 150000 250000"
+
+#for k in `seq 1 3` ; do
+#    echo "$k"
+#    for i in $CACHESIZES ; do
+#	echo "$i"
+#	time ./run_web_sim.sh default $i $OUTFILE $WORKLOAD
+#    done;
+#done;
+
+#~/ping-me.sh;
+
+ssh blanks@sns44.cs.princeton.edu "killall node"
+ssh blanks@sns45.cs.princeton.edu "killall redis-server"
