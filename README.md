@@ -1,5 +1,9 @@
-cost-cache
-==========
+Hyperbolic Caching Simulations
+==============================
+
+Our modified version of Redis is available here:
+
+[https://github.com/kantai/redis-hyperbolic-caching]
 
 
 Setting up the Simulator
