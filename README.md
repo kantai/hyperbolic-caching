@@ -1,9 +1,9 @@
 Hyperbolic Caching Simulations
 ==============================
 
-Our modified version of Redis is available here:
+This repository holds the simulation code and data analysis code for the Hyperbolic Caching Project. For more details, check out our [paper](https://www.cs.princeton.edu/~ablankst/stuff/hyperbolic_caching.pdf).
 
-[https://github.com/kantai/redis-hyperbolic-caching]
+To check out our Redis Prototype, see this [repository](https://github.com/kantai/redis-hyperbolic-caching).
 
 
 Setting up the Simulator
